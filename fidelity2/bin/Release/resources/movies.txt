@@ -1,0 +1,35 @@
+Here is the description (edited by myself) of the movie file from the student:
+
+
+XML file of just over 3000 movies.  All the movies are guaranteed the following:
+
+Movie Title, Year Released, User Rating (out of 10), Actor[s] (minimum 1, maximum 5), Director, Genre Designation (minimum 1, maximum multiple genres), Running Time
+
+For most of the movies I tried to get the rating certification, i.e. the thing that says whether a film is G, PG, PG13, etc.  The rating certification is based on the USA system.
+
+The list has films dating back to at least the 1930s and will span all the potential genres.
+
+
+The tags for this file are:
+
+<movielist> </movielist> This encapsulates the entire document
+
+<movie> </movie> This signals a specific movie
+
+The following are encapsulated in between movie tags:
+
+<title></title>
+
+ <year></year> 
+
+<actor></actor> 
+
+<certification></certification>
+
+<rating></rating>
+
+<time></time>
+
+<genre></genre>
+
+<director></director>
